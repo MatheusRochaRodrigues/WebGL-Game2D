@@ -1,0 +1,307 @@
+body{
+  background-color: #333333;
+}
+
+.cabeca{
+  width: 1510px;
+  position: relative;
+  height: 10px;
+  /* background-color: #06b460; */
+  display: flex; /* Utiliza flexbox para alinhar os itens */
+  flex-wrap: wrap; /* Permite que os itens flexíveis quebrem para a próxima linha */
+}
+
+.container{
+  width: 1520px;
+  position: relative;
+  margin: 0 auto;
+  /* margin-top:10px; */
+  overflow: hidden; /* faz com que qualquer conteúdo que exceda as dimensões do <main> seja ocultado.*/
+  height: 740px;    
+  /* height: 710px; */
+
+  /* background-color: #000000b3; */
+  color: antiquewhite;
+  display: flex; /* Utiliza flexbox para alinhar os itens */
+  flex-wrap: wrap; /* Permite que os itens flexíveis quebrem para a próxima linha */
+  /* border-radius: 3px; */
+  
+
+}
+
+.contLeft {
+  /* position: relative; */
+  /* background-color: rgb(171, 0, 0); */
+  width: 57%;
+  height: 100%;
+  display: flex; /* Utiliza flexbox para alinhar os itens */
+  
+  /* align-items: flex-end; */
+  flex-wrap: wrap; /* Permite que os itens flexíveis quebrem para a próxima linha */
+
+  justify-content: center; /* Centraliza horizontalmente */
+  align-items: center; /* Centraliza verticalmente */
+/*   
+  display: flex;
+  flex-flow: column;
+  justify-content: space-between; */
+}
+
+ 
+
+#bt2{
+  background-color: rgb(161, 47, 47);
+  border: 3px solid rgb(58, 0, 0);  
+}
+/* Estilo do botão quando o cursor está sobre ele */
+#bt2:hover {
+  background-color: #790909; /* Nova cor de fundo quando o cursor está sobre o botão */
+  /* transform: scale(1.1);  */
+  opacity: 0.9; /* Torna o botão um pouco transparente */
+}
+#bt2:active {
+  background-color: #8a0101; /* Cor de fundo quando clicado */
+  /* transform: scale(0.95);  */
+  transform: scale(0.95); /* Faz o botão diminuir levemente */ 
+}
+
+#bt3{
+  background-color: rgb(59, 124, 36);
+  border: 3px solid rgb(4, 80, 7);  
+}
+/* Estilo do botão quando o cursor está sobre ele */
+#bt3:hover {
+  background-color: #1fb814; /* Nova cor de fundo quando o cursor está sobre o botão */
+  /* transform: scale(1.1);  */
+  opacity: 0.9; /* Torna o botão um pouco transparente */
+}
+#bt3:active {
+  background-color: #8a0101; /* Cor de fundo quando clicado */
+  /* transform: scale(0.95);  */
+  transform: scale(0.95); /* Faz o botão diminuir levemente */ 
+}
+
+
+
+button {
+  width: 310px; /* Largura do botão */
+  height: 70px; /* Altura do botão */
+  padding: 10px; /* Padding interno */
+  background-color: #123483; /* Cor de fundo do botão */
+  color: white; /* Cor do texto */
+  border: none;  
+  border-radius: 8px;  
+  font-size: 20px; /* Tamanho da fonte */
+  text-align: center; /* Centraliza o texto */
+  line-height: auto; /* Alinha o texto verticalmente */
+  cursor: pointer; /* Muda o cursor para indicar que é clicável */
+  transition: background-color 0.3s ease; /* Transição suave na cor de fundo */
+ 
+  /* font-weight: bold; */
+  /* border: 3px solid rgb(58, 0, 0);   */
+  /* border-radius: 5%; */
+  border: 3px solid rgb(6, 49, 124);  
+}
+
+/* Estilo do botão quando o cursor está sobre ele */
+button:hover {
+  background-color: #104edf; /* Nova cor de fundo quando o cursor está sobre o botão */
+  /* transform: scale(1.1);  */
+  opacity: 0.9; /* Torna o botão um pouco transparente */
+}
+button:active {
+  background-color: #340754; /* Cor de fundo quando clicado */
+  /* transform: scale(0.95);  */
+  transform: scale(0.9); /* Faz o botão diminuir levemente */
+
+}
+
+ 
+
+
+
+
+/* .ScreenGame { 
+  position: relative;
+  background-color: rgb(140, 9, 9);
+  
+  width: 100%;
+  height: 80%;
+ } */
+
+
+
+/* .game-container {
+  width: 100%;
+  height: 100%;      /* altura total da janela do navegador */
+  /* margin: 0 auto; */
+  /*border: 1px solid #000; */
+  
+  /* background-color: rgb(140, 9, 9); */
+/*}*/ 
+
+
+iframe {
+  width: 98%;
+  /* height: 80%; */
+  height: 77%;
+  border: none; /* remove a borda do iframe */
+  /* margin: auto auto; */
+  margin: 5px;
+
+  border: 2.2px solid #c5c3c3;
+  background-color: #ffffff; /* Cor de fundo do botão */
+}
+
+/* ------------------------------------------------------------------------------------------------- */
+
+.contRight{
+  margin-top: 5px;
+  width: 43%;
+  height: 97%;
+  display: flex; /* Utiliza flexbox para alinhar os itens */
+  
+}
+
+.toolboxDiv{
+  width: 33%;
+  height: 100%;
+}
+
+.blocklyDiv{
+  width: 100%;
+  height: 100%;
+  
+  color: rgb(255, 255, 255);
+  /* text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.4) !important; */
+  border: 2.3px solid #c5c3c3;
+  /* border-radius: 10px; */
+  overflow: hidden; 
+}
+
+
+.circle-btn {
+  width: 40px;
+  height: 40px;
+  background-color: #b8089e; /* Azul */
+  color: white;
+  font-size: 20px;
+  font-weight: bold;
+  border: 4px solid rgb(149, 18, 18); /* Borda vermelha */
+  border-radius: 30%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+  box-shadow: 3px 3px 10px rgba(0, 0, 0, 0.2);
+  transition: 0.3s;
+  margin-left: 10px; 
+  padding: 10px;
+}
+
+.circle-btn:hover {
+  background-color: #ff0000; /* Azul mais escuro */
+  transform: scale(1.1);
+}
+
+.circle-btn:active {
+  transform: scale(0.9); /* Faz o botão diminuir levemente */
+  background-color: #d35400; /* Cor diferente ao ser pressionado */
+  box-shadow: inset 2px 2px 5px rgba(0, 0, 0, 0.3); /* Efeito de afundado */
+}
+
+
+.optionsBtt { 
+  /* width: 57%;
+  height: 100%; */
+  display: flex; /* Utiliza flexbox para alinhar os itens */
+  
+  /* align-items: flex-end; */
+  flex-wrap: wrap; /* Permite que os itens flexíveis quebrem para a próxima linha */
+
+  justify-content: center; /* Centraliza horizontalmente */
+  align-items: center; /* Centraliza verticalmente */
+/*   
+  display: flex;
+  flex-flow: column;
+  justify-content: space-between; */
+  margin-left: 80px; /* Espaçamento entre os botões */
+}
+
+.circle-btn2 {
+  width: 55px;
+  height: 27px;
+  background-color: #0e640b; /* Azul */
+  color: white;
+  font-size: 18px;
+  font-weight: bold;
+  border: 3px solid rgb(41, 106, 4); /* Borda vermelha */
+  border-radius: 5%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+  box-shadow: 3px 3px 10px rgba(0, 0, 0, 0.2);
+  transition: 0.3s;
+  margin-left: 10px; /* Espaçamento entre os botões */
+  padding: 10px;
+}
+
+.circle-btn2:hover {
+  background-color: #2bb535; /* Azul mais escuro */
+  transform: scale(1.1);
+}
+
+.circle-btn2:active {
+  transform: scale(0.9); /* Faz o botão diminuir levemente */
+  background-color: #b34501; /* Cor diferente ao ser pressionado */
+  box-shadow: inset 2px 2px 5px rgba(0, 0, 0, 0.3); /* Efeito de afundado */
+}
+
+
+.tools {
+  position: relative; /* para .left-btn se posicionar em relação a esse container */
+  width: 100%;
+  height: 10%;
+  display: flex;
+  align-items: center;
+  justify-content: center; /* centraliza o conteúdo (sem considerar o .left-btn) */
+  gap: 20px;
+  /* margin: 6px; */
+}
+
+.left-btn {
+  position: absolute; /* sai do fluxo normal e não afeta a centralização */
+  left: 0;
+  /* top: 50%; */
+  transform: translateY(-50%);
+  /* padding-left: 10px; */
+  padding-left: 4px;
+}
+
+/* Já existente */
+.tools2 {
+  height: 5%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 5px;
+  margin: 1px;
+}
+
+.tools2 button {
+  width: 80px;
+  height: 30px;
+  padding: 10px 20px;
+  font-size: 16px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  transition: 0.3s;
+}
+
+.tools2 button:hover {
+  transform: scale(1.1);
+}
+

@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Página Principal com Unity WebGL</title>
+
+    <link
+    rel="stylesheet"
+    href="https://code.getmdl.io/1.2.1/material.indigo-pink.min.css" />
+  <link rel="stylesheet" href="styles/index.css" />
+</head>
+
+<body mode="blockly">
+    <div class="cabeca"> 
+  </div>
+
+  <div class="container">
+    <div class="contLeft">
+      
+      <!-- <div class = "optionsBtt"> -->
+        <button class="circle-btn" onclick="loadScene('fase1')">1</button>
+        <button class="circle-btn" onclick="loadScene('fase2')">2</button>
+        <button class="circle-btn" onclick="loadScene('fase3')">3</button>
+        <button class="circle-btn" onclick="loadScene('fase4')">4</button>
+      <!-- </div> -->
+
+      <iframe id="unityIframe" src="Game/index.html" width="100% " height="100%" frameborder="0" tabindex="-1" style="pointer-events: none;"></iframe>  <!--870x630 -->
+      <!-- <iframe id="unityIframe" src="Game/index.html" width="100% " height="100%" frameborder="0" ></iframe> -->
+      
+      <div class="tools">
+        <div class="left-btn">
+          <button class="circle-btn2" onclick="Grid()">Grid</button>
+        </div>
+        
+        <div class="tools2"> 
+          <button id="bt2" onclick="saveBlocks()">Salvar</button>
+          <button id="bt3" onclick="loadBlocks()">Carregar</button>
+        </div>
+
+        <button id="bt1">EnsinarJhon</button>     <!-- <button id="sendMessageButton" onclick="window.focus()">Enviar Unity</button> -->
+      
+        <div class="tools2"> 
+          <button id="bt2" onclick="saveBlocksToFile()">Exportar</button>
+          <button id="bt3" onclick="loadBlocksFromFile()">Importar</button>  
+ 
+          <!-- Input invisível usado pelo botão "Importar" -->
+          <input type="file" id="fileInput" accept=".json" style="display: none;">
+          
+        </div>
+
+      </div>
+        
+  </div>
+  
+  <div class="contRight"> 
+    <div class="blocklyDiv" id="blocklyDiv"></div>
+  </div>
+
+  </div>
+
+    <script src="https://unpkg.com/blockly/blockly_compressed.js"></script>
+    <script src="https://unpkg.com/blockly/blocks_compressed.js"></script>
+    <script src="https://unpkg.com/blockly/javascript_compressed.js"></script>
+    <script src="https://unpkg.com/blockly/msg/en.js"></script>
+
+
+    <script src="ScriptsBlockly/ToolBlocks/Events.js"></script>
+    <script src="ScriptsBlockly/ToolBlocks/Actions.js"></script>
+    <!-- <script src="ScriptsBlockly/ToolBlocks/myblock.js"></script> -->
+    <script src="ScriptsBlockly/ToolBlocks/Movement.js"></script>
+    <script src="ScriptsBlockly/ToolBlocks/Operadores.js"></script>
+    <script src="ScriptsBlockly/ToolBlocks/Alvos.js"></script>
+    <script src="ScriptsBlockly/ToolBlocks/Crafting.js"></script>
+    <!-- toolbox -->
+    <script src="ScriptsBlockly/ToolBoxs/TBFase1.js"></script>
+    <script src="ScriptsBlockly/ToolBoxs/TBFase2.js"></script>
+    <script src="ScriptsBlockly/ToolBoxs/TBFase3.js"></script>
+    <script src="ScriptsBlockly/ToolBoxs/TBFase4.js"></script>
+    <script src="ScriptsBlockly/ToolBoxs/Toolbox.js"></script>
+
+    <script src="ScriptsBlockly/main.js"></script>
+    <script src="ScriptsBlockly/ManagerUnity.js"></script>
+    <script src="ScriptsBlockly/ManageBlockly.js"></script>
+
+    <script src="HandShake/callUnity.js"></script>
+</body>
+</html>
