@@ -1,0 +1,54 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0fc167f81bcfb3c44b8e0a6e3838b482, type: 3}
+  m_Name: DD_Level2-1
+  m_EditorClassIdentifier: 
+  talkScript:
+  - text: O bloco Se(tambem conhecido como IF) permite verificar algo, adicionando
+      uma pergunta "E se?" que chamamos de condicional
+    videoURL: 3
+  - text: "\"E se estiver chovendo?, o que eu fa\xE7o?\"  \n\"Levo um Guada Chuva\"\n\"e
+      se estiver chovendo\" \xE9 a condi\xE7\xE3o(Condicional) do nosso bloco (SE)
+      e o que estiver dentro dela ser\xE1 oque ser\xE1 feito se essa condi\xE7\xE3o
+      for verdadeira"
+    videoURL: 
+  - text: "No caso o que ser\xE1 feito \xE9 levar o guada chuva"
+    videoURL: 
+  - text: "N\xE3o veja essas etapas como algo dificil por que a propria mente humana
+      programa inconscientemente, ent\xE3o sua dificuldade ser\xE1 de pensar de forma
+      tao simples/burra coisas que sua mente faz naturalmente mas um computador n\xE3o"
+    videoURL: 
+  - text: "Para a constru\xE7\xE3o de uma condicional do bloco Se, existe outros
+      blocos para esse proposito como o Comparador, ele ira comparar os resultados
+      de cado lado e tomar uma decisao"
+    videoURL: 
+  - text: "se lembre do exemplo da chuva da tarefa anterior, para o caso ilustrado
+      no video podemos ver que estamos pegando o bloco de operador e fazendo um simples
+      compara\xE7\xE3o"
+    videoURL: 
+  - text: "Se 0 \xE9 maior que 3, logo use o machado para cortar a arvore, mas sabemos
+      que 0 nunca ser\xE1 maior do que 3, logo ele n\xE3o ira usar o machado"
+    videoURL: 
+  - text: "Agora Se colocamos que 0 \xE9 menor do que 3, ele ir\xE1 acionar o machado,
+      fizemos um condicional com compara\xE7\xE3o matematica, e isso \xE9 condicional
+      que ira disparar ou n\xE3o as a\xE7\xF5es no nosso SE (IF)"
+    videoURL: 
+  - text: 'Entendendo isso agora use o bloco (Se) com os demais blocos que aprendemos
+      e mate todos os animais, e por fim colete 7 madeiras
+
+'
+    videoURL: 
+  - text: "Fa\xE7a essa tarefas usando o bloco (Se) e nele use diferentes valores
+      no operando com diferentes tipos de compara\xE7\xE3o no bloco Comparador sendo
+      maior, menor, igual, entre outros. Para que voce observe bem oq e como o bloco
+      (Se) \xE9 Disparado"
+    videoURL: 

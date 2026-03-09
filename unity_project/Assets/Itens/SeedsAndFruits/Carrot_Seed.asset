@@ -1,0 +1,30 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ce8c4ea60200d0e45a7b97d4718e0972, type: 3}
+  m_Name: Carrot_Seed
+  m_EditorClassIdentifier: 
+  nameItem: Carrot_Seed
+  nameItemBr: 
+  tile: {fileID: 0}
+  ruleTile: {fileID: 0}
+  type: 3
+  stackable: 1
+  img: {fileID: 949775116, guid: c6d81ba7ec1049049a5ccfbfc75fa1f7, type: 3}
+  Spawn: {fileID: 949775116, guid: c6d81ba7ec1049049a5ccfbfc75fa1f7, type: 3}
+  seedGrown:
+  - {fileID: -172096911, guid: c6d81ba7ec1049049a5ccfbfc75fa1f7, type: 3}
+  - {fileID: 1761433345, guid: c6d81ba7ec1049049a5ccfbfc75fa1f7, type: 3}
+  - {fileID: -1874572833, guid: c6d81ba7ec1049049a5ccfbfc75fa1f7, type: 3}
+  - {fileID: -516394820, guid: c6d81ba7ec1049049a5ccfbfc75fa1f7, type: 3}
+  stateGrown: 0
+  nextItem: {fileID: 11400000, guid: 7eff979ea45482f4bb59062801be0401, type: 2}
+  food: 1

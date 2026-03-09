@@ -1,0 +1,30 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0fc167f81bcfb3c44b8e0a6e3838b482, type: 3}
+  m_Name: DD_Level1-5
+  m_EditorClassIdentifier: 
+  talkScript:
+  - text: "Voce pode ter percebido que as vezes repetir varias vezes os mesmos blocos
+      pode ser cansativo e bastante sujo, mesmo que use o bloco de repeti\xE7\xE3o
+      pra agilizar, mas para isso existe as fun\xE7\xF5es que voce pode criar para
+      fazer todo o trabalho e chamalas onde e quantas vezes quiser"
+    videoURL: 6
+  - text: "Fun\xE7\xF5es sao como caixas onde voce guarda algo como as a\xE7oes do
+      jogador e sempre que chamar ela, tudo que estiver dentro ser\xE1 executado,
+      n\xF3s distinguimos as fun\xE7\xF5es pelo seu respectivo nome que voce mesmo
+      define"
+    videoURL: 
+  - text: "Fa\xE7a uma nova planta\xE7\xE3o s\xF3 que de cenoura no cercado que construiu
+      anteriormente mas usando as fun\xE7\xF5es que voce pode construir agora"
+    videoURL: 
+  - text: Assim que concluir pode ir para a proxima fase -> Level 2
+    videoURL: 

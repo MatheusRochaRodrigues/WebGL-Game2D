@@ -1,0 +1,22 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b7a24df186fddbb40880071fb0e3089a, type: 3}
+  m_Name: Craft_Arrow
+  m_EditorClassIdentifier: 
+  nameItem: Arrow
+  craftItems:
+  - item: {fileID: 11400000, guid: e173d66e75ef0df4b9a12ac8f748baf8, type: 2}
+    count: 1
+  - item: {fileID: 11400000, guid: 11071487a6697a0488f4734c9688faa3, type: 2}
+    count: 1
+  nextItem: {fileID: 11400000, guid: 154de90dc1a0fc344bacef5b54dc5579, type: 2}
+  almostItem: 3

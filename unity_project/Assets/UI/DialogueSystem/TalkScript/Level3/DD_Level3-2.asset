@@ -1,0 +1,43 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0fc167f81bcfb3c44b8e0a6e3838b482, type: 3}
+  m_Name: DD_Level3-2
+  m_EditorClassIdentifier: 
+  talkScript:
+  - text: "Aprendemos no nivel anterior que podemos fazer uma pequena IA para nosso
+      player tornando-o mais inteligente mas para isso precisamos lidar com novas
+      situa\xE7\xF5es inesperadas que podem ocorrer com nosso pequeno player"
+    videoURL: 
+  - text: "no nivel anterior descobrimos uma forma de gerar a\xE7\xF5es automaticas
+      ao nosso player fazendo com que ele pudesse saber saber se algo esta perto
+      e tomar uma decis\xE3o, mas no caso anterior eram animais e agora que s\xE3o
+      monstros que podem te matar?"
+    videoURL: 
+  - text: "para isso precisamos ser mais cuidadosos agora, por que por exemplo e
+      se as nossas flechas acabassem? como o jogador deveria lidar com essa situa\xE7\xE3o?
+      Para isso quero que voce ache formas de mais uma vez matar todos os monstros
+      da cena mas lidando com esses cuidados, e para isso use os blocos while, se,
+      se esta perto/longe, etc."
+    videoURL: 
+  - text: "Agora voce podera com o bloco (Tem no inventario) saber se existe naquele
+      momento um determinado item, e da mesma maneira com o bloco (Quantos no Inventario)
+      poder\xE1 saber sua quantia"
+    videoURL: 
+  - text: "E como extra voce tambem pode usar o bloco (n\xE3o) na caixa de ferramentas
+      que permite voce negar uma condi\xE7\xE3o para inves de \"Se existe Flecha
+      no inventario\" para \"Se nao existir no inventario fa\xE7a tal coisa\""
+    videoURL: 
+  - text: 'E por fim caso desejar pode destruir algum item do seu inventario com
+      o bloco (DestroyItem) '
+    videoURL: 
+  - text: Com isso use-o para matar todos os monstros do cenario
+    videoURL: 

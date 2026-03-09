@@ -1,0 +1,33 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0fc167f81bcfb3c44b8e0a6e3838b482, type: 3}
+  m_Name: DD_Level2-2
+  m_EditorClassIdentifier: 
+  talkScript:
+  - text: "Com o bloco (Para Sempre Fazer) ou tambem conhecido como (While) voce
+      podera adicionar a\xE7\xF5es dentro dela que acontecer\xE3o sempre"
+    videoURL: 4
+  - text: "Use isso para verificar algo continuamente a todo momento, isso permitira
+      que voce nao dependa de Clicar no bot\xE3o (Ensinar Jhon) para tomar uma a\xE7\xE3o,
+      voce o esta ensinado a agir sozinho semelhante a fazer uma IA(Inteligencia
+      Artifical) para seu boneco"
+    videoURL: 
+  - text: "Esses 2 novos blocos como o proprio nome diz serve para verificar se existe
+      algo perto ou longe do jogador, use elas em conjunto com um alvo para verificar
+      se tal alvo esta perto ou longe do jogador, e se estiver fa\xE7a alguma coisa"
+    videoURL: 
+  - text: Sabendo desses 3 novos blocos, utilize-os em conjunto para fazer o Player
+      disparar flechas nos animais de forma automatica sempre que chegarem perto
+      do player
+    videoURL: 
+  - text: "Dessa forma novamente ca\xE7e todos os animais "
+    videoURL: 

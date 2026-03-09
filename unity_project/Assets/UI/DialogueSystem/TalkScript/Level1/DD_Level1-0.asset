@@ -1,0 +1,31 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0fc167f81bcfb3c44b8e0a6e3838b482, type: 3}
+  m_Name: DD_Level1-0
+  m_EditorClassIdentifier: 
+  talkScript:
+  - text: "Meu objetivo aqui \xE9 mostrar que voce j\xE1 sabe programar, apenas precisa
+      especializar como ve o mundo e as coisas de forma a Simplificar"
+    videoURL: 0
+  - text: "Indo na caixa de ferramentas Voce pode arrastar a\xE7\xF5es que o Player
+      pode tomar"
+    videoURL: 
+  - text: Seja andar ou usar um machado
+    videoURL: 
+  - text: Voce tambem pode visualizar os ladrinhos que delimitam cada passo do jogador
+      onde voce o move por vez semelhante a um xadrez
+    videoURL: 1
+  - text: Sempre que voce for Desbloqueando novos blocos, venha ate mim sua placa
+      guia para lhe instruir suas novas possibilidades
+    videoURL: 
+  - text: "Seu objetivo agora \xE9 usar oque aprendeu e coletar 6 madeiras"
+    videoURL: 

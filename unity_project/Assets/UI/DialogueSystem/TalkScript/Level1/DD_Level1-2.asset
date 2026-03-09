@@ -1,0 +1,19 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0fc167f81bcfb3c44b8e0a6e3838b482, type: 3}
+  m_Name: DD_Level1-2
+  m_EditorClassIdentifier: 
+  talkScript:
+  - text: "Sua nova miss\xE3o \xE9 construir um cercado para fazer uma planta\xE7\xE3o
+      com as cercas que crafitou, use o bloco (Coloque) para colocar a cerca no mundo,
+      coloque pelo menos 30 cercas"
+    videoURL: 3

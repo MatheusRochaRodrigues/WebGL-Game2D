@@ -1,0 +1,23 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0fc167f81bcfb3c44b8e0a6e3838b482, type: 3}
+  m_Name: DD_Level1-4
+  m_EditorClassIdentifier: 
+  talkScript:
+  - text: "Voce pode usar o novo bloco de repeti\xE7\xE3o e definir uma quantidade
+      limitada de vezes que ele vai funcionar repetidamente com as a\xE7\xF5es que
+      vai instruir ao jogador"
+    videoURL: 5
+  - text: "Fa\xE7a mais cercas (pelo menos 20) e use o novo bloco de repeti\xE7\xE3o
+      para construir um novo cercado para sua nova planta\xE7\xE3o que ser\xE1 feito
+      de forma automatica"
+    videoURL: 

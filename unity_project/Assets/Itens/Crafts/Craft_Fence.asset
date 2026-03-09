@@ -1,0 +1,20 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b7a24df186fddbb40880071fb0e3089a, type: 3}
+  m_Name: Craft_Fence
+  m_EditorClassIdentifier: 
+  nameItem: Fence
+  craftItems:
+  - item: {fileID: 11400000, guid: e173d66e75ef0df4b9a12ac8f748baf8, type: 2}
+    count: 2
+  nextItem: {fileID: 11400000, guid: 2e45b260e13f7614f82eb825fcab7608, type: 2}
+  almostItem: 4

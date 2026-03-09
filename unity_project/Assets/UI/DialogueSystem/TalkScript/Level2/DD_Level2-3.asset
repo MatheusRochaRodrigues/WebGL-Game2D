@@ -1,0 +1,27 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0fc167f81bcfb3c44b8e0a6e3838b482, type: 3}
+  m_Name: DD_Level2-3
+  m_EditorClassIdentifier: 
+  talkScript:
+  - text: "Por fim para ese nivel, agora que voce sabe como funciona o bloco IF (Se),
+      existe um bloco novo que \xE9 como se fosse a mistura do (Se) com o (While),
+      onde Temos um (While) que ocorre \xE8 chamado apenas quando a condi\xE7\xE3o
+      for verdadeira, semelhante ao (Se) mas agora dentro de um (while)"
+    videoURL: 
+  - text: "E no momento que esse (while) condicional for rodado e a condicao for
+      verdadeira ele permanecera rodando ate que seja falso que ser\xE1 onde ela
+      terminara e nao rodar\xE1 mais"
+    videoURL: 
+  - text: Agora como atividade pense agora como voce poderia usar isso para acrescentar
+      algo ao jogador, Assim que concluir pode ir para a proxima fase -> Level 3
+    videoURL: 

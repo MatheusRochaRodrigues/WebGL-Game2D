@@ -1,0 +1,24 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ce8c4ea60200d0e45a7b97d4718e0972, type: 3}
+  m_Name: Chest
+  m_EditorClassIdentifier: 
+  nameItem: Chest
+  tile: {fileID: 11400000, guid: 4e7e4548eb36b21468a05eb17903aead, type: 2}
+  ruleTile: {fileID: 0}
+  type: 0
+  stackable: 1
+  img: {fileID: 21300000, guid: 51d77254630560b4b8ef6fc9aaf9e755, type: 3}
+  Spawn: {fileID: 0}
+  seedGrown: []
+  stateGrown: 0
+  nextItem: {fileID: 0}

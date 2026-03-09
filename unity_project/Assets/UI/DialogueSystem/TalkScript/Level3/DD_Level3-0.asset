@@ -1,0 +1,25 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0fc167f81bcfb3c44b8e0a6e3838b482, type: 3}
+  m_Name: DD_Level3-0
+  m_EditorClassIdentifier: 
+  talkScript:
+  - text: "Agora no Level3 nosso objetivo ser\xE1 poder agora dar controle ao jogador
+      sobre nosso pequeno Player jhon"
+    videoURL: 
+  - text: "Na categoria Eventos ver\xE1 que foi adicionado um novo bloco, esse bloco
+      em quest\xE3o se trata de um novo condicional para o (Se) que pode lhe permite
+      saber se o jogador apertou algum bot\xE3o do teclado e usalo como condicional
+      para algum IF, e se sim entrar\xE1 e ser\xE1 disparado"
+    videoURL: 
+  - text: Com isso use-o para matar todos os monstros do cenario
+    videoURL: 

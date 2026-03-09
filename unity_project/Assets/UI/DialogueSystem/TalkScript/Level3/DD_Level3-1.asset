@@ -1,0 +1,26 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0fc167f81bcfb3c44b8e0a6e3838b482, type: 3}
+  m_Name: DD_Level3-1
+  m_EditorClassIdentifier: 
+  talkScript:
+  - text: Agora que matou alguns monstros pode ser que esteja com pouca vida!!! Mas
+      nao se preocupe para isso voce pode pegar comida de algum arbusto de amora,
+      ou alguma colheita que voce colheu
+    videoURL: 
+  - text: "Ou por meio de um forno para esquentar carne de animais para comer, carnes
+      enchem mais vida do que frutas, e frutas feitas por planta\xE7\xF5es mais do
+      que as de arbusto"
+    videoURL: 
+  - text: "Coma pelo menos algumas frutas para recuperar suas for\xE7as para que
+      v\xE1, e mate novamente todos os inimigos"
+    videoURL: 

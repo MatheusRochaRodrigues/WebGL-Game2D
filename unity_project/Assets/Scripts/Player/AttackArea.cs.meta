@@ -1,0 +1,14 @@
+fileFormatVersion: 2
+guid: e769a47697acadb459a003b2cb48e737
+MonoImporter:
+  externalObjects: {}
+  serializedVersion: 2
+  defaultReferences:
+  - col: {instanceID: 0}
+  - hitSound: {instanceID: 0}
+  - shakeLight: {fileID: 11400000, guid: fa2ea1f7a965cf54dab8216c5386f844, type: 2}
+  executionOrder: 0
+  icon: {instanceID: 0}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
