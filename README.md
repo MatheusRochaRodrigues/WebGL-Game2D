@@ -33,7 +33,7 @@ You can watch a demo of the project here:
 ```text
 blockly-2d-game/
 │
-├─ README.md                        # Project overview, video, instructions
+├─ README.md                         # Project overview, video, instructions
 ├─ unity_project/                    # Original Unity project
 │   ├─ Assets/
 │   ├─ ProjectSettings/
