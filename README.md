@@ -23,7 +23,8 @@ Key features:
 
 You can watch a demo of the project here:
 
-[![Watch the video](<img width="1512" height="856" alt="Screenshot_70" src="https://github.com/user-attachments/assets/3406f1bd-4253-445b-b672-e876879eb282" />)](https://www.linkedin.com/posts/mathewrocha_educational-game-project-for-learning-programming-ugcPost-7376851929257172995-iP-2?utm_source=share&utm_medium=member_desktop&rcm=ACoAAFXzyXgBYNlATVGA-SynVdinedCOFlK0bpU)
+[![Watch the video]
+[![Demo Video](https://github.com/user-attachments/assets/3406f1bd-4253-445b-b672-e876879eb282)](https://www.linkedin.com/posts/mathewrocha_educational-game-project-for-learning-programming-ugcPost-7376851929257172995-iP-2?utm_source=share&utm_medium=member_desktop&rcm=ACoAAFXzyXgBYNlATVGA-SynVdinedCOFlK0bpU)
 
 *(Replace `YOUR_VIDEO_ID` with your YouTube video ID)*
 
