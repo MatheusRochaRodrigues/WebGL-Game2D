@@ -23,24 +23,30 @@ Key features:
 
 You can watch a demo of the project here:
 
-[![Watch the video]
+! Watch the video
 [![Demo Video](https://github.com/user-attachments/assets/3406f1bd-4253-445b-b672-e876879eb282)](https://www.linkedin.com/posts/mathewrocha_educational-game-project-for-learning-programming-ugcPost-7376851929257172995-iP-2?utm_source=share&utm_medium=member_desktop&rcm=ACoAAFXzyXgBYNlATVGA-SynVdinedCOFlK0bpU)
-
-*(Replace `YOUR_VIDEO_ID` with your YouTube video ID)*
 
 ---
 
 ## 🗂 Project Structure
 
 ```text
-blockly-webgl-2d-game/
+blockly-2d-game/
 │
-├─ README.md
-├─ index.html          # Main HTML page hosting the game
-├─ style.css           # Styling for the web interface
-├─ blockly/            # Blockly library and custom blocks
-├─ game/               # Unity WebGL exported game files
-│   ├─ Build/
-│   ├─ TemplateData/
-├─ scripts/            # JavaScript connecting Blockly to the game
-└─ assets/             # Any images, sounds, or assets used
+├─ README.md                        # Project overview, video, instructions
+├─ unity_project/                    # Original Unity project
+│   ├─ Assets/
+│   ├─ ProjectSettings/
+│   ├─ Packages/
+│   └─ ... (Unity development files)
+│
+└─ web_integration/                  # Web interface integrating Blockly with the Unity WebGL game
+    ├─ Game/                         # Files related to the game interface or embedded WebGL game
+    ├─ HandShake/                    # JavaScript code handling communication between the site and Unity
+    │   ├─ CallUnity.js              # Functions to send commands from JS to Unity
+    │   └─ ScriptsUnity.js           # Additional helper scripts for Unity interaction
+    ├─ ScriptsBlockly/               # JavaScript managing Blockly blocks and program logic
+    ├─ styles/                       # CSS styling for Blockly interface and web pages
+    │   └─ style.css                 # Main CSS file for the web interface
+    ├─ blockly/                      # Blockly library and any custom blocks definitions 
+    └─ index.html                    # Main entry point of the web integration interface
